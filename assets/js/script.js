@@ -967,3 +967,16 @@
     
 
 })(window.jQuery);
+
+// filter grade
+
+document.getElementById("junior").addEventListener("change", function() {
+    document.getElementById("junior-grades").style.display = "block";
+    document.getElementById("senior-grades").style.display = "none";
+});
+
+document.getElementById("senior").addEventListener("change", function() {
+    document.getElementById("senior-grades").style.display = "block";
+    document.getElementById("junior-grades").style.display = "none";
+});
+
